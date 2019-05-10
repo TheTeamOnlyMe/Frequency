@@ -1,0 +1,576 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) <2013-2014> <Colin Duquesnoy>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+QWidget{
+	background-color:rgb(208,233,255);
+}
+QWidget#test{
+	background:rgb(169,0,0);
+}
+QWidget#dataPage{
+	background-color:rgb(169,169,169);
+}
+QWidget#settingPage{
+	background-color:rgb(168,168,168);
+}
+QWidget#MainStatusBar{
+	background-color:rgb(0,52,63);
+}
+QWidget#OtherSetting{
+	background-color:rgb(100,100,100);
+}
+#OperationButtonBar{
+	background-color:rgb(55,198,192);
+}
+QPushButton#OperationBar{
+	
+	background-color:rgb(29,176,184);
+}
+QPushButton#OperationBar:hover{
+	background-color:rgb(0,52,63);
+}
+QPushButton#OperationBar:pressed{
+	background-color:rgb(1,25,53);
+}
+QPushButton#OperationBar:checked{
+	color:rgb(0,52,63);
+	background-color:rgb(208,233,255);
+}
+QLabel{
+	text-align:center;
+	color:rgb(208,233,255);
+	font:bold;
+	font-size:14px;
+	font:"微软雅黑";
+	background:rgba(0,0,0,0);
+}
+QPushButton{
+	border-style:none;
+	font:bold;
+	font-size:14px;
+	padding:10px;
+	color:white;
+	background:rgb(55,198,192);
+}
+QPushButton:hover{
+	background-color:rgb(55,198,192);
+}
+QPushButton:pressed{
+	background-color:rgb(100,100,100);
+}
+QPushButton:checked{
+	background-color:rgb(128,128,128);
+}
+
+QPushButton#TextBtn{
+	min-height:50px;
+	font-size:24px;
+}
+QPushButton#ReportBtn{
+	font-size:16px;
+}
+QPushButton#RecordBtn{
+	font-size:16px;
+}
+QPushButton:hover{
+	background-color:rgb(0,217,217);
+}
+QPushButton#leftButton1:hover
+{
+	background-color:rgb(0,217,217);
+}
+QPushButton#leftButton1:checked
+{
+	background-color:rgb(0,217,217);
+}
+
+
+QTextBrowser{
+	background:rgb(255,255,255);
+	color:rgb(128,128,128);
+	border-width:0;
+	border-style:outset;
+}
+QLabel#introduce{
+	color:rgb(169,169,169);
+	background:white;
+}
+QLabel#brochure
+{
+	background-color:white;
+}
+
+QWidget#TopBar
+{
+	max-height:50px;
+	background:rgb(0,52,63);
+}
+
+
+QStackedLayout#toptoolbar
+{
+	max-height:30px;
+}
+
+/********************************Combox  Style*************************************/
+QWidget#CustomCombox
+{
+	max-height:40px;
+	border:2px solid white;
+	border-style:none;
+	background:rgb(55,198,192);
+}
+QWidget#SinglePatternCombox
+{
+	max-height:40px;
+	border:2px solid white;
+	border-style:none;
+	background:rgb(55,198,192);
+}
+QLabel#SinglePatternCombox{
+	color:rgb(0,52,63);
+	background:rgba(0,0,0,0);
+}
+QComboBox{
+	background-color:rgb(55,198,192);
+	border-style:none;
+	font-size:14px;
+	padding:1px 2px 1px 2px;
+	max-height:40px;
+}
+
+
+QComboBox::drop-down{
+	border:0px;
+}
+
+QListView::item{
+	font-size:14px;
+	border-style:none;
+	background-color:rgb(55,198,192);
+	height:30px;
+}
+QListView::item:hover{
+	color:rgb(55,198,192);
+}
+QListView::item:selected{
+	color:rgb(208,233,255);
+}
+
+QComboBox QAbstractItemView
+{
+	min-width:90px;
+	outline: 0px;
+	border:0 px solid gray;
+}
+QComboBox QAbstractItemView::item
+{
+	min-width:90px;
+	min-height:20px;
+}
+QLineEdit
+{
+	border-style:none;
+	font-size:16px;
+	min-height:30px;
+	max-height:30px;
+	max-width:60px;
+	min-width:60px;
+}
+QSlider{
+	border:0px solid white;
+}
+QPushButton:disabled  {
+    background-color:rgb(128,128,128);
+}
+QScrollBar:vertical ,QScrollBar:horizontal {
+    width: 20px;
+    background: white;
+	margin:3px 3px 3px 3px;
+}
+
+
+
+QScrollBar::handle:vertical,QScrollBar::handle:horizontal{
+    background: #AAA;
+}
+
+QScrollBar::handle:vertical:hover,QScrollBar::handle:horizontal:hover{
+    background: #888;
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical 
+,QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal{
+    width: 0;
+    height: 0;
+}
+QTableView{
+	height:30px;
+	font-size:14px;
+	font:bold;
+	border:none;
+	background:rgb(189,189,189);
+}
+QTableView::item:focus{
+	border:0px;
+}
+QTableView::item:selected{
+	color:white;
+	background:rgb(128,128,128);
+}
+QTableView::item:hover{
+	color:white;
+	background-color:rgb(168,168,168);
+}
+
+QHeaderView::section{
+	border-style:none;
+	background:rgb(100,100,100);
+	color:rgb(225,225,225);
+	height:40px;
+	font-size:16px;
+	font:bold;
+}
+QHeaderView::section:hover{
+	background:rgb(168,168,168);
+
+}
+
+QListWidget
+{
+	outline:0px; 
+} 
+
+QWidget#dataForm{
+	background:rgb(168,168,168);
+}
+
+QComboBox#dataForm
+{
+	min-height:30px;
+	min-width:100px;
+	max-height:30px;
+	max-width:100px;
+	background-color:rgb(225,225,225);
+}
+QLineEdit#dataForm
+{
+	min-height:30px;
+	min-width:100px;
+	max-height:30px;
+	max-width:100px;
+	background-color:rgb(225,225,225);
+}
+QPushButton#dataForm
+{
+	min-height:20px;
+	min-width:80px;
+	max-height:20px;
+	max-width:80px;
+	background-color:rgb(225,225,225);
+}
+QPushButton#dataForm:hover
+{
+	background-color:rgb(100,100,100);
+}
+QPushButton#dataForm:checked
+{
+	background-color:rgb(80,80,80);
+}
+QWidget#reportVLayout{
+	background-color:rgb(168,168,168);
+}
+QLabel#Title
+{
+	font-size:16px;
+	font:bold;
+}
+QPushButton#prePage
+{
+	background:rgba(0,0,0,0);
+	min-height:15px;
+	max-height:15px;
+	min-width:20px;
+	max-width:20px;
+	border-image:url(:/image/images/return_unchecked.png);
+}
+QPushButton#prePage:hover
+{
+	border-image:url(:/image/images/return_checked.png);
+}
+QPushButton#TableButtonImage{
+	background:rgba(0,0,0,0);
+	max-height:10px;
+	max-width:10px;
+	min-height:10px;
+	min-width:10px;
+	border-image:url(:/image/images/checkbox_unchecked.png);
+}
+QPushButton#TableButtonImage:hover{
+	border-image:url(:/image/images/checkbox_hover.png);
+}
+QPushButton#TableButtonImage:checked{
+	border-image:url(:/image/images/checkbox_checked.png);
+}
+QComboBox::down-arrow{
+	border-width:0px;
+	border-style:none;
+	border-image:url(:image/images/add-line_vertical_1.png);
+	
+}
+QComboBox::down-arrow:checked{
+	border-image:url(:image/images/add-line_vertical.png);	
+}
+QPushButton#ESC{
+	border-image:url(:/image/images/power_blue.png);
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+}
+QPushButton#ESC:hover{
+	border-image:url(:/image/images/power_blue_hover.png);
+}
+QPushButton#TestStart{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/start.png);
+}
+QPushButton#TestStart:checked{
+	border-image:url(:/image/images/stop.png);
+}
+
+QPushButton#TESTDATABUTTON
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/data_unchecked.png);
+}
+QPushButton#TESTDATABUTTON:checked
+{
+	border-image:url(:/image/images/data_checked.png);
+}
+QPushButton#TESTDATABUTTON:pressed
+{
+	border-image:url(:/image/images/data_checked.png);
+}
+QPushButton#TESTDATABUTTON:hover
+{
+	border-image:url(:/image/images/data_hover.png);
+}
+
+QPushButton#MAPBUTTON
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/map_unchecked.png);
+}
+QPushButton#MAPBUTTON:checked
+{
+	border-image:url(:/image/images/map_checked.png);
+}
+QPushButton#MAPBUTTON:pressed
+{
+	border-image:url(:/image/images/map_checked.png);
+}
+QPushButton#MAPBUTTON:hover
+{
+	border-image:url(:/image/images/map_hover.png);
+}
+
+QPushButton#MULTIPATHBTN
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/multipath_unchecked.png);
+}
+QPushButton#MULTIPATHBTN:checked
+{
+	border-image:url(:/image/images/multipath_checked.png);
+}
+QPushButton#MULTIPATHBTN:pressed
+{
+	border-image:url(:/image/images/multipath_checked.png);
+}
+QPushButton#MULTIPATHBTN:hover
+{
+	border-image:url(:/image/images/multipath_hover.png);
+}
+QPushButton#MULTIPATHBTN:disabled
+{
+	border-image:url(:/image/images/multipath_enabled.png);
+}
+QPushButton#STARMAPBTN
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/starmap_unchecked.png);
+}
+QPushButton#STARMAPBTN:pressed
+{
+	border-image:url(:/image/images/starmap_checked.png);
+}
+QPushButton#STARMAPBTN:checked
+{
+	border-image:url(:/image/images/starmap_checked.png);
+}
+QPushButton#STARMAPBTN:disabled
+{
+	border-image:url(:/image/images/starmap_enabled.png);
+}
+QPushButton#STARMAPBTN:hover
+{
+	border-image:url(:/image/images/starmap_hover.png);
+}
+
+QPushButton#start
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/start.png);
+}
+QPushButton#start:checked
+{
+	border-image:url(:/image/images/stop.png);
+}
+QPushButton#Left
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/left.png);
+}
+QPushButton#Left:disabled
+{
+	border-image:url(:/image/images/left_enabled.png);
+}
+QPushButton#Left:hover
+{
+	border-image:url(:/image/images/left_hover.png);
+}
+QPushButton#Right
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/right.png);
+}
+QPushButton#Right:disabled
+{
+	border-image:url(:/image/images/right_enabled.png);
+}
+QPushButton#Right:hover
+{
+	border-image:url(:/image/images/right_hover.png);
+}
+QPushButton#screenshot
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:15px;
+	max-width:15px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/screenshot.png);
+}
+QPushButton#screenshot:pressed
+{
+	border-image:url(:/image/images/screenshot_pressed.png);
+}
+QPushButton#screenshot:hover
+{
+	border-image:url(:/image/images/screenshot_hover.png);
+}
+QPushButton#onOffBtn
+{
+	min-height:10px;
+	max-height:10px;
+	min-width:35px;
+	max-width:35px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/off.png);
+}
+QPushButton#onOffBtn:checked
+{
+	border-image:url(:/image/images/on.png);
+}
+QPushButton#cycleBtn
+{
+	min-height:10px;
+	max-height:10px;
+	min-width:10px;
+	max-width:10px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/auto_off.png);
+}
+QPushButton#cycleBtn:checked
+{
+	border-image:url(:/image/images/auto_on.png);
+}
+QPushButton#deleteBtn
+{
+	border-image:url(:/image/images/delete.png);
+}
+QPushButton#deleteBtn:hover
+{
+	border-image:url(:/image/images/delete_hover.png);
+}
+QPushButton#submitBtn
+{
+	min-height:15px;
+	max-height:15px;
+	min-width:25px;
+	max-width:25px;
+	background:rgba(0,0,0,0);
+	border-image:url(:/image/images/submit_hover.png);
+}
+QPushButton#submitBtn:disabled
+{
+	border-image:url(:/image/images/submit_enabled.png);
+}
+QPushButton#submitBtn:hover
+{
+	border-image:url(:/image/images/submit.png);
+}
