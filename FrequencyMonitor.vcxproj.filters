@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{0f2dff9c-93ea-452c-bbe0-476067c893cf}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b057c2b4-e9ca-4eb3-899f-a30bc0be9faf}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\CustomTools">
+      <UniqueIdentifier>{421fae1e-f40b-4302-b96e-076ec365a086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CustomTools">
+      <UniqueIdentifier>{e94377ba-5558-454c-9ffe-4e16b9049086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{bd6bdf0f-f539-472b-aca5-ce7a6afd3c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{f4a954fa-d8e7-48a8-9f4f-8544e70817e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CustomModule">
+      <UniqueIdentifier>{0b01cf59-9149-4cb5-a71e-251ab1ba82b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomModule">
+      <UniqueIdentifier>{f9a94e5a-6cee-49ff-9dcc-c697a7ef433a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\toolBar">
+      <UniqueIdentifier>{c6544cd5-eb8e-42d1-b12c-fa5bba16d6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\toolBar\top">
+      <UniqueIdentifier>{d1b7dc5d-8682-4c15-92c3-d6a0985d365c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\toolBar\right">
+      <UniqueIdentifier>{5c0c34fb-44fd-4be4-9ac3-a185bfbdcb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\toolBar\bottom">
+      <UniqueIdentifier>{d38d1ad7-98d5-4672-aa25-7e76df2f738d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\toolBar">
+      <UniqueIdentifier>{3f46b5a0-9eb0-45f1-9bed-ae529f37fd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\toolBar\bottom">
+      <UniqueIdentifier>{19d192ca-6324-4442-8db8-181aac76cdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\toolBar\right">
+      <UniqueIdentifier>{6c09e537-31cd-4bc9-bb73-7b819abf9b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\toolBar\top">
+      <UniqueIdentifier>{f236b16e-1b13-48a3-bc25-b1994c4046ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{7784c5fd-9d01-4e13-9318-8fdc544e2641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{891a9229-7dab-40bf-a353-a51a66d469e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialog">
+      <UniqueIdentifier>{7ab2ee49-5e0f-48e5-a279-a98d38dba692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{d7cc93ef-76fe-4eef-b7d0-94c03c8a317d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\SettingPage">
+      <UniqueIdentifier>{51334f8a-7d78-4382-b6de-764a703f9e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\TestPage">
+      <UniqueIdentifier>{9ae56666-0570-43ed-96b5-4678009f494d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View\TestPage">
+      <UniqueIdentifier>{c2263288-f30c-4731-bec2-2df67d6b414f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View\SettingPage">
+      <UniqueIdentifier>{aad738a2-25c7-4207-a581-c357c99795d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools\customTable">
+      <UniqueIdentifier>{b4f28e58-6827-4c5b-9a41-e8fce6d2a785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools\customTableForm">
+      <UniqueIdentifier>{d4db3f0b-60a4-4190-aa98-27d031bdebbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\SettingPage\OtherSetting">
+      <UniqueIdentifier>{1346635b-2ae3-4966-bd24-86386e8992df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View\SettingPage\OtherSetting">
+      <UniqueIdentifier>{2fd0ada5-f376-4121-a6e1-904b34b4112e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View\PlotPage">
+      <UniqueIdentifier>{ed1af38f-a7cd-4e95-a0f2-5b48e09b515d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\PlotPage">
+      <UniqueIdentifier>{4089ba30-23cc-41c4-816d-cc68bec0c2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{fa4799cc-e9f0-4f72-9253-b2fd431e6de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{bc8d2ce8-0101-4345-bf66-74cc53811798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{3ee5fa7e-95a2-4029-b254-e90ba4992373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_frequencymonitor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xcustomstatus.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xcustomstatus.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_testmodepage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_testmodepage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_centerwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_centerwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="centerwidget.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_navigationpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_navigationpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="navigationpage.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_reportpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_reportpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_recordpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_recordpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="recordpage.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="reportpage.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_operationbuttonbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_operationbuttonbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xanimationstackedwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xanimationstackedwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="xanimationstackedwidget.cpp">
+      <Filter>Source Files\CustomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_singlepatterncombox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_singlepatterncombox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cyclepatternconbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cyclepatternconbox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_topfrequencytool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_topfrequencytool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_topsettingbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_topsettingbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cyclepatternconbox.cpp">
+      <Filter>Source Files\CustomModule</Filter>
+    </ClCompile>
+    <ClCompile Include="singlepatterncombox.cpp">
+      <Filter>Source Files\CustomModule</Filter>
+    </ClCompile>
+    <ClCompile Include="operationbuttonbar.cpp">
+      <Filter>Source Files\toolBar\right</Filter>
+    </ClCompile>
+    <ClCompile Include="xcustomstatus.cpp">
+      <Filter>Source Files\toolBar\bottom</Filter>
+    </ClCompile>
+    <ClCompile Include="topsettingbar.cpp">
+      <Filter>Source Files\toolBar\top</Filter>
+    </ClCompile>
+    <ClCompile Include="topfrequencytool.cpp">
+      <Filter>Source Files\toolBar\top</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_datapresentationpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_datapresentationpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SprogressBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SprogressBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SprogressBar.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_customsprogressbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_customsprogressbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="customsprogressbar.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_realtimestatus.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_realtimestatus.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_realtimedata.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_realtimedata.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="realtimedata.cpp">
+      <Filter>Source Files\CustomModule</Filter>
+    </ClCompile>
+    <ClCompile Include="realtimestatus.cpp">
+      <Filter>Source Files\CustomModule</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="qcustomplot.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_operationmainpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_operationmainpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_testpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_testpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="toptesttool.cpp">
+      <Filter>Source Files\toolBar\top</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_toptesttool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_toptesttool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_customplotpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_customplotpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frequencysetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frequencysetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="settingpage.cpp">
+      <Filter>Source Files\View\SettingPage</Filter>
+    </ClCompile>
+    <ClCompile Include="frequencysetting.cpp">
+      <Filter>Source Files\View\SettingPage</Filter>
+    </ClCompile>
+    <ClCompile Include="testpage.cpp">
+      <Filter>Source Files\View\TestPage</Filter>
+    </ClCompile>
+    <ClCompile Include="testmodepage.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="operationmainpage.cpp">
+      <Filter>Source Files\toolBar\right</Filter>
+    </ClCompile>
+    <ClCompile Include="datapresentationpage.cpp">
+      <Filter>Source Files\View\TestPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_stationsetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_stationsetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="stationsetting.cpp">
+      <Filter>Source Files\View\SettingPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frequencycolorsetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frequencycolorsetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="frequencycolorsetting.cpp">
+      <Filter>Source Files\View\SettingPage</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_othersetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_othersetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="tablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_checkboxdelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_checkboxdelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_customtableview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_customtableview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="customtableview.cpp">
+      <Filter>Source Files\Tools\customTableForm</Filter>
+    </ClCompile>
+    <ClCompile Include="frequencyconfigform.cpp">
+      <Filter>Source Files\Tools\customTableForm</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frequencyconfigform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frequencyconfigform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_stationconfigform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_stationconfigform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="stationconfigform.cpp">
+      <Filter>Source Files\Tools\customTableForm</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mappage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mappage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mappage.cpp">
+      <Filter>Source Files\View\TestPage</Filter>
+    </ClCompile>
+    <ClCompile Include="vlc_player\player.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="othersetting.cpp">
+      <Filter>Source Files\View\SettingPage\OtherSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_revisesetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_revisesetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="revisesetting.cpp">
+      <Filter>Source Files\View\SettingPage\OtherSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cyclesetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cyclesetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_datasavesetting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_datasavesetting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="cyclesetting.cpp">
+      <Filter>Source Files\View\SettingPage\OtherSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="datasavesetting.cpp">
+      <Filter>Source Files\View\SettingPage\OtherSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="checkboxdelegate.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mapplayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mapplayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mapplayer.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="qlableexpand.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qlableexpand.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qlableexpand.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_multipathpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_multipathpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_starmappage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_starmappage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="multipathpage.cpp">
+      <Filter>Source Files\View\TestPage</Filter>
+    </ClCompile>
+    <ClCompile Include="starmappage.cpp">
+      <Filter>Source Files\View\TestPage</Filter>
+    </ClCompile>
+    <ClCompile Include="customplotpage.cpp">
+      <Filter>Source Files\View\PlotPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\tinystr.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\tinyxml.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\tinyxmlerror.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\tinyxmlparser.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="systemconfig.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="frequencymonitor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frequencymonitor.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testmodepage.h">
+      <Filter>Header Files\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="centerwidget.h">
+      <Filter>Header Files\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="navigationpage.h">
+      <Filter>Header Files\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recordpage.h">
+      <Filter>Header Files\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="reportpage.h">
+      <Filter>Header Files\View</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xanimationstackedwidget.h">
+      <Filter>Header Files\CustomTools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cyclepatternconbox.h">
+      <Filter>Header Files\CustomModule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="singlepatterncombox.h">
+      <Filter>Header Files\CustomModule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xcustomstatus.h">
+      <Filter>Header Files\toolBar\bottom</Filter>
+    </CustomBuild>
+    <CustomBuild Include="topsettingbar.h">
+      <Filter>Header Files\toolBar\top</Filter>
+    </CustomBuild>
+    <CustomBuild Include="topfrequencytool.h">
+      <Filter>Header Files\toolBar\top</Filter>
+    </CustomBuild>
+    <CustomBuild Include="operationbuttonbar.h">
+      <Filter>Header Files\toolBar\right</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SprogressBar.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="customsprogressbar.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="realtimedata.h">
+      <Filter>Header Files\CustomModule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="realtimestatus.h">
+      <Filter>Header Files\CustomModule</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qcustomplot.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CustomPlotexpend.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="toptesttool.h">
+      <Filter>Header Files\toolBar\top</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testpage.h">
+      <Filter>Header Files\View\TestPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="datapresentationpage.h">
+      <Filter>Header Files\View\TestPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="operationmainpage.h">
+      <Filter>Header Files\toolBar\right</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settingpage.h">
+      <Filter>Header Files\View\SettingPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frequencysetting.h">
+      <Filter>Header Files\View\SettingPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stationsetting.h">
+      <Filter>Header Files\View\SettingPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frequencycolorsetting.h">
+      <Filter>Header Files\View\SettingPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tablemodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="customtableview.h">
+      <Filter>Header Files\Tools\customTable</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frequencyconfigform.h">
+      <Filter>Header Files\Tools\customTable</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stationconfigform.h">
+      <Filter>Header Files\Tools\customTable</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mappage.h">
+      <Filter>Header Files\View\TestPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vlc_player\player.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="othersetting.h">
+      <Filter>Header Files\View\SettingPage\OtherSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="revisesetting.h">
+      <Filter>Header Files\View\SettingPage\OtherSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="datasavesetting.h">
+      <Filter>Header Files\View\SettingPage\OtherSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cyclesetting.h">
+      <Filter>Header Files\View\SettingPage\OtherSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="checkboxdelegate.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mapplayer.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qlableexpand.h">
+      <Filter>Header Files\Tools</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multipathpage.h">
+      <Filter>Header Files\View\TestPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="starmappage.h">
+      <Filter>Header Files\View\TestPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="customplotpage.h">
+      <Filter>Header Files\View\PlotPage</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_frequencymonitor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMD_FrequencyMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CustomPlotexpend.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml\tinystr.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml\tinyxml.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="systemconfig.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrequencyMonitor.rc" />
+  </ItemGroup>
+</Project>

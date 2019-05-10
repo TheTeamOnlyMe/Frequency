@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/style.qss</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>images/add-line_vertical.png</file>
+        <file>images/add-line_vertical_1.png</file>
+        <file>images/array_down.png</file>
+        <file>images/checkbox_checked.png</file>
+        <file>images/checkbox_hover.png</file>
+        <file>images/checkbox_unchecked.png</file>
+        <file>images/data_checked.png</file>
+        <file>images/data_hover.png</file>
+        <file>images/data_unchecked.png</file>
+        <file>images/left.png</file>
+        <file>images/left_hover.png</file>
+        <file>images/map_checked.png</file>
+        <file>images/map_hover.png</file>
+        <file>images/map_unchecked.png</file>
+        <file>images/multipath_checked.png</file>
+        <file>images/multipath_hover.png</file>
+        <file>images/multipath_unchecked.png</file>
+        <file>images/power_blue.png</file>
+        <file>images/power_blue_hover.png</file>
+        <file>images/return_checked.png</file>
+        <file>images/return_unchecked.png</file>
+        <file>images/right.png</file>
+        <file>images/right_hover.png</file>
+        <file>images/screenshot.png</file>
+        <file>images/screenshot_hover.png</file>
+        <file>images/screenshot_pressed.png</file>
+        <file>images/starmap_checked.png</file>
+        <file>images/starmap_hover.png</file>
+        <file>images/starmap_unchecked.png</file>
+        <file>images/start.png</file>
+        <file>images/stop.png</file>
+        <file>images/delete.png</file>
+        <file>images/delete_hover.png</file>
+        <file>images/auto_off.png</file>
+        <file>images/auto_on.png</file>
+        <file>images/off.png</file>
+        <file>images/on.png</file>
+        <file>images/submit.png</file>
+        <file>images/submit_hover.png</file>
+        <file>images/submit_enabled.png</file>
+        <file>images/left_enabled.png</file>
+        <file>images/right_enabled.png</file>
+        <file>images/multipath_enabled.png</file>
+        <file>images/starmap_enabled.png</file>
+    </qresource>
+</RCC>
